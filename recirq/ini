@@ -1,0 +1,50 @@
+# TypeScript JSX (React/Next.js projects)
+[*.tsx]
+indent_size = 2
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# JavaScript JSX
+[*.jsx]
+indent_size = 2
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Dockerfiles
+[Dockerfile]
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+
+# SQL files
+[*.sql]
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# SCSS/SASS stylesheets
+[*.scss]
+indent_size = 2
+insert_final_newline = true
+
+[*.sass]
+indent_size = 2
+insert_final_newline = true
+
+# GraphQL schemas and queries
+[*.graphql]
+indent_size = 2
+insert_final_newline = true
+
+# XML and SVG
+[*.{xml,svg}]
+indent_size = 2
+insert_final_newline = true
+
+# Configuration for text files (README, LICENSE, etc.)
+[*.{txt,LICENSE,README}]
+charset = utf-8
+trim_trailing_whitespace = false
+insert_final_newline = true
